@@ -3,4 +3,7 @@
 const array = [1, 2, 3, 4, 5];
 
 //* slice() 메서드로 추출할 첫번째 요소와 마지막 요소를 정할 수 있다.
-const newArray = originalArray.slice(1, 4);
+const newArray = array.slice(1, 4);
+
+//* 첫번째와 마지막 요소를 제외 하고 출력 된다.
+console.log(newArray);
